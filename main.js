@@ -16,7 +16,13 @@ closemodal.onclick = () => {
 };
 
 //User action on clicking anywhere outside of the modal page
-
+window.onclick = (e) => {
+  if (e.target == modal) {
+    modal.style.display = 'none';
+  } else {
+    modal.style.display = 'blocl';
+  }
+};
 
 
 menuItems.style.maxHeight = '0px';
