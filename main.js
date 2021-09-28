@@ -16,7 +16,11 @@ closemodal.onclick = () => {
 };
 
 //User action on clicking anywhere outside of the modal page
-
+window.onclick = function(event) {
+  if (event.target.tagName == 'h3') {
+    modal.style.display = 'none';
+  }
+}
 
 
 menuItems.style.maxHeight = '0px';
