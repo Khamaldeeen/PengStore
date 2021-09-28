@@ -10,17 +10,15 @@ btnModal.onclick = () => {
   modal.style.display = 'block';
 };
 
-// User action on clicking on the close button on modal
-closemodal.onclick = () => {
-  modal.style.display = 'none';
-};
 
+/*
 //User action on clicking anywhere outside of the modal page
 window.onclick = function(event) {
-  if (event.target.tagName == 'h3') {
+  if (event.target.tagName == modal) {
     modal.style.display = 'none';
   }
 }
+*/
 
 
 menuItems.style.maxHeight = '0px';
