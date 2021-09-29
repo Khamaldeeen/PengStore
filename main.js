@@ -10,6 +10,9 @@ btnModal.onclick = () => {
   modal.style.display = 'block';
 };
 
+closemodal.onclick = () => {
+  modal.style.display = 'none';
+};
 
 /*
 //User action on clicking anywhere outside of the modal page
